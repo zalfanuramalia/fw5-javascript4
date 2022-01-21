@@ -11,4 +11,4 @@ function palindrom (kata) {
     }
 }
 
-palindrom ("kucing")
+palindrom ("apa")
