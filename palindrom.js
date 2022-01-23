@@ -1,14 +1,15 @@
 function palindrom (kata) {
     let hasil = "";
-    x = kata.length - 1;
+    y = kata.toLowerCase()
+    x = y.length - 1;
     for (i=x; i>=0; i--){
-        hasil = hasil + kata[i];
+        hasil = hasil + y[i];
     }
-    if (hasil === kata){
+    if (hasil === y){
         console.log("Palindrom");
     } else {
         console.log("Bukan Palindrom");
     }
 }
 
-palindrom ("apa")
+palindrom ("Kasur ini rusak")
