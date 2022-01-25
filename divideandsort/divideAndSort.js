@@ -18,4 +18,4 @@ const divideAndSort = (num) => {
   console.log(parseInt(result));
   
 }
-divideAndSort(43500432098)
+divideAndSort(5956560159466056)
